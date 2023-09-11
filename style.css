@@ -1,0 +1,20 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url(images/téléchargement.png);
+}
+body {
+  color: aliceblue;
+  position: absolute;
+  display: grid;
+  grid-row: 2;
+}
+div {
+  margin: 100px;
+  font-size: 30px;
+  position: relative;
+  background-color: aqua;
+
+  z-index: 99;
+}
